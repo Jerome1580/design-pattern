@@ -74,6 +74,7 @@ function log(target,name,descripter){
         console.log(`calling ${name} with`,arguments);
         return oldValue.apply(this,arguments)
     }
+    return descriptor;
 }
 
 
