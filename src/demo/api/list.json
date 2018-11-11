@@ -1,24 +1,26 @@
 [
     {
         "id":1,
-        "name":"<js 面试题>",
+        "name":"《js 面试题》",
         "price":149,
         "discount":1
     },
     {
         "id":2,
-        "name":"<go 高级面试题>",
+        "name":"《go 高级面试题》",
         "price":1349,
         "discount":1
     },
     {
         "id":3,
-        "name":"<php 超级面试题>",
-        "price":149
+        "name":"《php 超级面试题》",
+        "price":149,
+        "discount":0
     },
     {
         "id":4,
-        "name":"<java 超级面试题>",
-        "price":149
+        "name":"《java 超级面试题》",
+        "price":149,
+        "discount":0
     }
 ]
