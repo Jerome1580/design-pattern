@@ -25,6 +25,11 @@ module.exports = {
         // 服务器的根目录
         contentBase:path.join(__dirname,'./release'),
         open:true, // 自动打开浏览器
-        port:9000
+        port:9000,
+        proxy:{
+            '/api/*':{
+                target:'http://localhost:8880'
+            }
+        }
     }
 }
